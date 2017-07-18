@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255FC50012DDA339F1202871 /* Pods_iX_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093444DC22A6F345255EDDC8 /* Pods_iX_Chat.framework */; };
 		30053BA41F1E3CB500E37900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30053BA31F1E3CB500E37900 /* AppDelegate.swift */; };
 		30053BA61F1E3CB500E37900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30053BA51F1E3CB500E37900 /* ViewController.swift */; };
 		30053BA91F1E3CB500E37900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30053BA71F1E3CB500E37900 /* Main.storyboard */; };
 		30053BAB1F1E3CB500E37900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30053BAA1F1E3CB500E37900 /* Assets.xcassets */; };
 		30053BAE1F1E3CB500E37900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30053BAC1F1E3CB500E37900 /* LaunchScreen.storyboard */; };
+		30053BB61F1E3E9000E37900 /* GoogleService-Info1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30053BB51F1E3E9000E37900 /* GoogleService-Info1.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		093444DC22A6F345255EDDC8 /* Pods_iX_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iX_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		145B00D63B4E246FD2DF6189 /* Pods-iX_Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iX_Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-iX_Chat/Pods-iX_Chat.release.xcconfig"; sourceTree = "<group>"; };
 		30053BA01F1E3CB500E37900 /* iX_Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iX_Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30053BA31F1E3CB500E37900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30053BA51F1E3CB500E37900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		30053BAA1F1E3CB500E37900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30053BAD1F1E3CB500E37900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30053BAF1F1E3CB500E37900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30053BB51F1E3E9000E37900 /* GoogleService-Info1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info1.plist"; path = "../../../../Downloads/GoogleService-Info1.plist"; sourceTree = "<group>"; };
+		D22D5922A9C03A9A62973672 /* Pods-iX_Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iX_Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iX_Chat/Pods-iX_Chat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255FC50012DDA339F1202871 /* Pods_iX_Chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				30053BA21F1E3CB500E37900 /* iX_Chat */,
 				30053BA11F1E3CB500E37900 /* Products */,
+				456DE716D4EAF9BBF9EC5EFA /* Pods */,
+				72C95A340D2CBD26A71D4703 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				30053BAA1F1E3CB500E37900 /* Assets.xcassets */,
 				30053BAC1F1E3CB500E37900 /* LaunchScreen.storyboard */,
 				30053BAF1F1E3CB500E37900 /* Info.plist */,
+				30053BB51F1E3E9000E37900 /* GoogleService-Info1.plist */,
 			);
 			path = iX_Chat;
+			sourceTree = "<group>";
+		};
+		456DE716D4EAF9BBF9EC5EFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D22D5922A9C03A9A62973672 /* Pods-iX_Chat.debug.xcconfig */,
+				145B00D63B4E246FD2DF6189 /* Pods-iX_Chat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72C95A340D2CBD26A71D4703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				093444DC22A6F345255EDDC8 /* Pods_iX_Chat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30053BB21F1E3CB500E37900 /* Build configuration list for PBXNativeTarget "iX_Chat" */;
 			buildPhases = (
+				450C6FABBE0E7418907683F8 /* [CP] Check Pods Manifest.lock */,
 				30053B9C1F1E3CB500E37900 /* Sources */,
 				30053B9D1F1E3CB500E37900 /* Frameworks */,
 				30053B9E1F1E3CB500E37900 /* Resources */,
+				B8C7517F0E0CD0184BB386C4 /* [CP] Embed Pods Frameworks */,
+				57DD057A22475969D5553F6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30053BB61F1E3E9000E37900 /* GoogleService-Info1.plist in Resources */,
 				30053BAE1F1E3CB500E37900 /* LaunchScreen.storyboard in Resources */,
 				30053BAB1F1E3CB500E37900 /* Assets.xcassets in Resources */,
 				30053BA91F1E3CB500E37900 /* Main.storyboard in Resources */,
@@ -130,6 +161,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		450C6FABBE0E7418907683F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57DD057A22475969D5553F6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iX_Chat/Pods-iX_Chat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C7517F0E0CD0184BB386C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iX_Chat/Pods-iX_Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30053B9C1F1E3CB500E37900 /* Sources */ = {
@@ -258,6 +337,7 @@
 		};
 		30053BB31F1E3CB500E37900 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22D5922A9C03A9A62973672 /* Pods-iX_Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iX_Chat/Info.plist;
@@ -270,6 +350,7 @@
 		};
 		30053BB41F1E3CB500E37900 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145B00D63B4E246FD2DF6189 /* Pods-iX_Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iX_Chat/Info.plist;
@@ -299,6 +380,7 @@
 				30053BB41F1E3CB500E37900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
