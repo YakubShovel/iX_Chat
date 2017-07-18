@@ -13,7 +13,7 @@
 		30053BA91F1E3CB500E37900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30053BA71F1E3CB500E37900 /* Main.storyboard */; };
 		30053BAB1F1E3CB500E37900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30053BAA1F1E3CB500E37900 /* Assets.xcassets */; };
 		30053BAE1F1E3CB500E37900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30053BAC1F1E3CB500E37900 /* LaunchScreen.storyboard */; };
-		30053BB61F1E3E9000E37900 /* GoogleService-Info1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30053BB51F1E3E9000E37900 /* GoogleService-Info1.plist */; };
+		30053BB81F1E41C400E37900 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30053BB71F1E41C400E37900 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		30053BAA1F1E3CB500E37900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30053BAD1F1E3CB500E37900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30053BAF1F1E3CB500E37900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30053BB51F1E3E9000E37900 /* GoogleService-Info1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info1.plist"; path = "../../../../Downloads/GoogleService-Info1.plist"; sourceTree = "<group>"; };
+		30053BB71F1E41C400E37900 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D22D5922A9C03A9A62973672 /* Pods-iX_Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iX_Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iX_Chat/Pods-iX_Chat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +69,7 @@
 				30053BAA1F1E3CB500E37900 /* Assets.xcassets */,
 				30053BAC1F1E3CB500E37900 /* LaunchScreen.storyboard */,
 				30053BAF1F1E3CB500E37900 /* Info.plist */,
-				30053BB51F1E3E9000E37900 /* GoogleService-Info1.plist */,
+				30053BB71F1E41C400E37900 /* GoogleService-Info.plist */,
 			);
 			path = iX_Chat;
 			sourceTree = "<group>";
@@ -153,8 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30053BB61F1E3E9000E37900 /* GoogleService-Info1.plist in Resources */,
 				30053BAE1F1E3CB500E37900 /* LaunchScreen.storyboard in Resources */,
+				30053BB81F1E41C400E37900 /* GoogleService-Info.plist in Resources */,
 				30053BAB1F1E3CB500E37900 /* Assets.xcassets in Resources */,
 				30053BA91F1E3CB500E37900 /* Main.storyboard in Resources */,
 			);
